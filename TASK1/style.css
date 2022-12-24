@@ -1,0 +1,61 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: navy;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Calculator {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px rgb(0, 0, 0), 5px 5px 12px rgb(5, 5, 5);
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
+    align-content: stretch;
+    align-items: center;
+    justify-items: stretch;
+}
+input{
+    grid-column: span 4;
+    height: 90px;
+    width: 280px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset -5px 5px 12px rgb(255, 255, 255), inset 5px 5px 12px rgb(255, 255, 255);
+    border: none;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: end;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    padding: 20px;
+}
+button{
+    height: 50px;
+    width: 55px;
+    background-color: rgb(109, 109, 109);
+    box-shadow: 8px -5px 15px rgb(0 0 0), 5px 5px 12px rgb(0 0 0);
+    border: none;
+    border-radius: 45%;
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.equal{
+    width: 128px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px -5px 12px rgb(0, 0, 0), 5px 5px 12px rgb(0, 0, 0);
+    padding: 3px;
+    font-size: 35px;
+}

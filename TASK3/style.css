@@ -1,0 +1,110 @@
+*{
+    background-image: url(bg.jpg);
+}
+main {
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:left;
+    
+}
+.t {
+    
+    margin-top: 4rem;
+    width: 95%;
+    max-width: 500px;
+}
+.t-title {
+    border: 5px;
+    border-style: dashed;
+    border-color: aliceblue;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 25px;
+    align-content: center;
+    
+}
+.t-title pre {
+    
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 2rem;
+    
+}
+.t-title:hover{
+    color: aqua;
+}
+form {
+    display: flex;
+}
+input {
+    background-color: white;
+    width: 90%;
+    padding: 0.5rem;
+    border: 3px solid rgb(0, 0, 0), 137);
+    font-size: 1rem;
+}
+
+button {
+    margin-left: 20px;
+    margin: 20px 20px;
+    width: 50%;
+    border: 5px solid rgb(107, 107, 107);
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.butn:hover{
+    color: chartreuse;
+}
+.t-body-there {
+    border: 10px;
+    border-style: dotted;
+    border-color: aliceblue;
+    margin-left: 875px;
+    width: 500px;
+    margin-top: -120px;
+}
+
+li {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+.todo-done {
+    text-decoration: line-through;
+}
+.circle {
+    justify-content: left;
+    margin-right: 10px;
+    color: red;
+    
+}
+.circle:hover {
+    color: rgb(255, 255, 255);
+}
+.done-circle {
+    color: rgb(0, 255, 0);
+    margin-right: 10px;
+}
+.del {
+    justify-content: space-between;
+    color: red;
+    margin-left: auto;
+    
+}
+.del:hover {
+    color: tomato;
+}
+/* Todo-t Styling Ends */
